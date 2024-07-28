@@ -1,16 +1,14 @@
+
+
 body {
     margin: 0;
-}
-
-.container {
-    margin: auto;
     align-content: center;
     background-color: hsl(212, 45%, 89%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .card {
-    margin: auto;
+    margin: 250px auto;
     border-radius: 10px;
     text-align: center;
     background-color: white;
@@ -18,7 +16,6 @@ body {
 
 .card-image {
     width: 100%;
-    /* height: auto;  */
     border-radius: 10px;
 }
 
@@ -27,33 +24,42 @@ body {
     border-radius: 10px;
 }
 
+h2 {
+    color: hsl(218, 44%, 22%)
+}
+
+p {
+    color: hsl(216, 15%, 48%);
+}
+
 @media screen and (max-width: 600px){
-    .container {
+    /* .container {
         width: 60vw;
         height: auto;
         padding: 20px 0 20px;       
         font-size: xx-small;
-    }
+    } */
 
     .card {
-        width: 40vw;
-        padding: 5px;       
+        width: 80vw;
+        padding: 15px; 
+        font-size: small;      
     }
 
    .attribution { 
-    font-size: 5px; 
+    font-size: 10px; 
     }
 }
 
 @media screen and (min-width: 600px){
-    .container {
+    /* .container {
         width: 55vw;
         height: 100vh;
         padding: 20px 0 20px;
-    }
+    } */
 
     .card {
-        width: 40vw;
+        width: 75vw;
         padding: 15px;
     }
 
@@ -63,12 +69,12 @@ body {
 }
 
 @media screen and (min-width:768px) {
-    .container {
+    /* .container {
         width: 45vw;
         height: auto;
         padding: 20px 0 20px;
         font-size: large;
-    }
+    } */
 
     .card {
         width: 30vw;
@@ -81,12 +87,12 @@ body {
 }
 
 @media screen and (min-width:1440px) {
-    .container {
+    /* .container {
         width: 40vw;
         height: auto;
         padding: 25px 0 25px;
         font-size: larger;
-    }
+    } */
 
     .card {
         width: 30vw;
@@ -103,6 +109,7 @@ body {
 .attribution { 
     text-align: center; 
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
